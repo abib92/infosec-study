@@ -3,6 +3,7 @@
 name: AWS example workflow
 on:
   push
+  workflow_dispatch: {}
 env:
   BUCKET_NAME : "demo-train-schedule"
   AWS_REGION : "us-east-1"
