@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - 'master'
-  # workflow_dispatch: {}
+  workflow_dispatch: {}
 env:
   BUCKET_NAME : "demo-train-schedule"
   AWS_REGION : "us-east-1"
